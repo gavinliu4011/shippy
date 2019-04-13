@@ -2,7 +2,8 @@ package main
 
 import (
 	pb "shippy/consignment-service/proto/consignment"
-	"gopkg.in/mgo.v2"
+
+	"github.com/globalsign/mgo"
 )
 
 const (

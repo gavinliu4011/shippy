@@ -1,9 +1,10 @@
 package go_micro_srv_user
 
 import (
+	"log"
+
 	"github.com/jinzhu/gorm"
-	"github.com/satori/go.uuid"
-	"github.com/labstack/gommon/log"
+	uuid "github.com/satori/go.uuid"
 )
 
 func (user *User) BeforeCreate(scope *gorm.Scope) error {

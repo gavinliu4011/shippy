@@ -1,9 +1,10 @@
 package main
 
 import (
-	"gopkg.in/mgo.v2"
 	"context"
 	pb "shippy/vessel-service/proto/vessel"
+
+	"github.com/globalsign/mgo"
 )
 
 // 实现微服务的服务端

@@ -2,8 +2,9 @@ package main
 
 import (
 	pb "shippy/vessel-service/proto/vessel"
-	"gopkg.in/mgo.v2"
-	"gopkg.in/mgo.v2/bson"
+
+	"github.com/globalsign/mgo"
+	"go.mongodb.org/mongo-driver/bson"
 )
 
 const (
